@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+main {
+    position: absolute;
+    width: 578px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    border-radius: 16px;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: absolute;
+    width: 551px;
+    height: 400px;
+    box-shadow: 20px 20px 10px #e8e8f3;
+    border-radius: 0px 13px 13px 0px;
+}
+
+.container-left {
+    position: absolute;
+    width: 281px;
+    height: 400px;
+    border-radius: 19px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%,67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    z-index: 1;
+}
+
+.container-left > .heading {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -90%);
+    font: normal;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    opacity: 65%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 17px;
+}
+
+.container-left > .circle {
+    position: absolute;
+    left: 50%;
+    top: 41%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0))
+}
+
+.circle > .container-circle {
+    position: absolute;
+    margin: 50% 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.circle > .container-circle > .number-circle {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -60%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 56px;
+
+}
+
+.circle > .container-circle > .text-circle {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    opacity: 60%;
+}
+
+.number-circle {
+
+}
+
+.text-circle {
+
+}
+
+h1 {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 26px;
+
+}
+
+.container-left .text-left {
+    position: absolute;
+    text-align: center;
+    line-height: 1.2em;
+    width: 210px;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.container-right {
+    position: absolute;
+    left: 49%;
+    width: 291px;
+    height: 400px;
+    border-radius: 0 19px 19px 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.title {
+    position: absolute;
+    top: 36px;
+    left: 31%;
+    font-size: 22px;
+    color: rgb(85, 85, 85);
+}
+
+.container-right .topicons {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 208px;
+    height: 195px;
+}
+
+.topicons {
+
+}
+
+img {
+    margin-left: 12px;
+}
+
+#card {
+
+}
+
+#reaction {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 42px;
+    background-color: hsl(0, 100%, 97%);
+    opacity: 100%;
+    border-radius: 10px;
+}
+
+#reaction img {
+    margin-left: 13px;
+}
+
+#text-reaction {
+    display: inline;
+    margin-left: 6px;
+    color: hsl(0, 100%, 67%);
+    opacity: 100%;
+}
+
+.number {
+    margin-left: 16px;
+}
+
+#numerator {
+    margin-left: 20px;
+    color: hsl(0, 0%, 12%);
+    font-weight: 700;
+}
+
+#denominator {
+    margin-left: 4px;
+    color: hsl(0, 0%, 55%);
+    font-weight: 700;
+}
+
+#memory {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 52px;
+    width: 220px;
+    height: 42px;
+    background-color: hsl(39, 100%, 97%);
+    border-radius: 10px;
+}
+
+#text-memory {
+    display: inline;
+    color: hsl(39, 100%, 56%);
+    margin-left: 9px;
+}
+
+#verbal {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 53%;
+    width: 220px;
+    height: 42px;
+    background-color: hsl(166, 100%, 97%);
+    border-radius: 10px;
+}
+
+#text-verbal {
+    display: inline;
+    color: hsl(166, 100%, 37%);
+    margin-left: 9px;
+}
+
+#visual {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 80%;
+    width: 220px;
+    height: 42px;
+    background-color: hsl(235, 100%, 97%);
+    border-radius: 10px;
+}
+
+#text-visual {
+    display: inline;
+    margin-left: 9px;
+    border-radius: 10px; 
+    color: hsl(234, 85%, 45%);
+}
+
+.container-right .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.btn {
+
+}
+
+button {
+    width: 230px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+button p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 6px;
+}
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

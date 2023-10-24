@@ -6,43 +6,76 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Frontend Mentor | Results summary component</title>
+  <title>Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
-  <div class="container">
-    <div class="img">
-      <img src="" alt="">
+  <main>
+    <div class="container">
+      <div class="container-left">
+        <h2 class="heading">Your Result</h2>
+        <div class="circle">
+          <div class="container-circle">
+            <p class="number-circle">76</p>
+            <p class="text-circle">of 100</p>
+          </div>
+        </div>
+        <h1>Great</h1>
+        <p class="text-left">
+          You scored higher than 65% of
+          <br>
+           the people who have taken
+          <br>
+           these tests.
+        </p>
+      </div>
+      <div class="container-right">
+        <h1 class="title">Summary</h1>
+        <div class="topicons">
+          <div id="cards">
+            <div id="reaction">
+              <img src="./assets/images/icon-reaction.svg" alt="Reaction">
+              <p id="text-reaction">Reaction</p>
+              <p class="number">
+                <p id="numerator">80</p>
+                <p id="denominator"> / 100</p>
+              </p>
+            </div>
+            <div id="memory">
+              <img src="./assets/images/icon-memory.svg" alt="Memory">
+              <p id="text-memory">Memory</p>
+              <p class="number">
+                <p id="numerator">92</p>
+                <p id="denominator"> / 100</p>
+              </p>
+            </div>
+            <div id="verbal">
+              <img src="./assets/images/icon-verbal.svg" alt="Verbal">
+              <p id="text-verbal">Verbal</p>
+              <p class="number">
+                <p id="numerator">61</p>
+                <p id="denominator"> / 100</p>
+              </p>
+            </div>
+            <div id="visual">
+              <img src="./assets/images/icon-visual.svg" alt="Visual">
+              <p id="text-visual">Visual</p>
+              <p class="number">
+                <p id="numerator">72</p>
+                <p id="denominator"> / 100</p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <button>
+            <p>Continue</p>
+          </button>
+        </div>
+      </div>
     </div>
-  </div>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
