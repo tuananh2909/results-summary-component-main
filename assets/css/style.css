@@ -180,17 +180,13 @@ img {
     opacity: 100%;
 }
 
-.number {
-    margin-left: 16px;
-}
-
-#numerator {
-    margin-left: 20px;
+#numerator-reaction {
+    margin-left: 32px;
     color: hsl(0, 0%, 12%);
     font-weight: 700;
 }
 
-#denominator {
+#denominator-reaction {
     margin-left: 4px;
     color: hsl(0, 0%, 55%);
     font-weight: 700;
@@ -213,6 +209,18 @@ img {
     margin-left: 9px;
 }
 
+#numerator-memory {
+    margin-left: 32px;
+    color: hsl(0, 0%, 12%);
+    font-weight: 700;
+}
+
+#denominator-memory {
+    margin-left: 4px;
+    color: hsl(0, 0%, 55%);
+    font-weight: 700;
+}
+
 #verbal {
     position: absolute;
     display: flex;
@@ -228,6 +236,18 @@ img {
     display: inline;
     color: hsl(166, 100%, 37%);
     margin-left: 9px;
+}
+
+#numerator-verbal {
+    margin-left: 48px;
+    color: hsl(0, 0%, 12%);
+    font-weight: 700;
+}
+
+#denominator-verbal {
+    margin-left: 4px;
+    color: hsl(0, 0%, 55%);
+    font-weight: 700;
 }
 
 #visual {
@@ -248,10 +268,22 @@ img {
     color: hsl(234, 85%, 45%);
 }
 
+#numerator-visual {
+    margin-left: 48px;
+    color: hsl(0, 0%, 12%);
+    font-weight: 700;
+}
+
+#denominator-visual {
+    margin-left: 4px;
+    color: hsl(0, 0%, 55%);
+    font-weight: 700;
+}
+
 .container-right .btn {
     position: absolute;
-    top: 80%;
-    left: 50%;
+    top: 81%;
+    left: 52%;
     transform: translate(-50%, -10%);
 }
 
